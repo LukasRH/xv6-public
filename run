@@ -2,11 +2,34 @@
 # XV6 compile and run sricpt
 # Will upload changes to files and fetch before starting
 
-echo "##############\nUpdating from git!"
+#Console colors!
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+ORANGE='\033[0;33m'
+CYAN='\033[0;36m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+printf "${}${NC}"
+
+
+
+printf "${GREEN}##################${NC}\n"
+printf "${BLUE}Updating from Github!${NC}\n"
+printf "${GREEN}##################${NC}\n"
+
 git fetch
-echo "Staging new changes!"
+
+printf "${GREEN}##################${NC}\n"
+printf "${BLUE}Staging new changes!${NC}\n"
+printf "${GREEN}##################${NC}\n"
+
 git add -A
 git status
-echo "Commiting to git!"
+
+printf "${GREEN}##################${NC}\n"
+printf "${BLUE}Commiting to git!${NC}\n"
+printf "${GREEN}##################${NC}\n"
+
 git commit -m "Testing"
 
