@@ -10,7 +10,6 @@ ORANGE='\033[0;33m'
 CYAN='\033[0;36m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
-printf "${}${NC}"
 
 
 
@@ -38,4 +37,16 @@ git commit -m "Testing"
 
 printf "\n${BLUE}Done!${NC}\n\n"
 printf "${GREEN}##################${NC}\n\n"
+
+
+printf "${GREEN}##################${NC}\n\n"
+printf "${BLUE}Starting XV6!${NC}\n\n"
+printf "${GREEN}##################${NC}\n\n"
+
+make clean
+make qemu
+
+
+
+
 
