@@ -14,22 +14,24 @@ printf "${}${NC}"
 
 
 
-printf "${GREEN}##################${NC}\n"
-printf "${BLUE}Updating from Github!${NC}\n"
-printf "${GREEN}##################${NC}\n"
+printf "${GREEN}##################${NC}\n\n"
+printf "${BLUE}Updating from Github!${NC}\n\n"
 
 git fetch
 
-printf "${GREEN}##################${NC}\n"
-printf "${BLUE}Staging new changes!${NC}\n"
-printf "${GREEN}##################${NC}\n"
+printf "\n${BLUE}Done!${NC}\n\n"
+printf "${GREEN}##################${NC}\n\n"
+
+printf "${GREEN}##################${NC}\n\n"
+printf "${BLUE}Staging new changes!${NC}\n\n"
+printf "${GREEN}##################${NC}\n\n"
 
 git add -A
 git status
 
-printf "${GREEN}##################${NC}\n"
-printf "${BLUE}Commiting to git!${NC}\n"
-printf "${GREEN}##################${NC}\n"
+printf "${GREEN}##################${NC}\n\n"
+printf "${BLUE}Commiting to git!${NC}\n\n"
+printf "${GREEN}##################${NC}\n\n"
 
 git commit -m "Testing"
 
