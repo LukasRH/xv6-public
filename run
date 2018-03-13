@@ -2,7 +2,7 @@
 # XV6 compile and run sricpt
 # Will upload changes to files and fetch before starting
 
-echo "Updating from git!"
+echo "##############\nUpdating from git!"
 git fetch
 echo "Staging new changes!"
 git add -A
