@@ -34,6 +34,7 @@ printf "${GREEN}##################${NC}\n\n"
 printf "${BLUE}Commiting to git!${NC}\n\n"
 
 git commit -m "Compile Update"
+git push
 
 printf "\n${BLUE}Done!${NC}\n\n"
 printf "${GREEN}##################${NC}\n\n"
