@@ -1,7 +1,7 @@
 #!/bin/bash
 # XV6 compile and run sricpt
 # Will upload changes to files and fetch before starting
-
+ 
 #Console colors!
 RED='\033[0;31m'
 GREEN='\033[0;32m'
